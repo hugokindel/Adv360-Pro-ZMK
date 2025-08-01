@@ -24,7 +24,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             display-name = "Base";
             bindings = <
 &kp EQUAL       &kp N1     &kp N2    &kp N3     &kp N4       &kp N5  &tog 1                                                                  &mo 3      &kp N6  &kp N7       &kp N8     &kp N9    &kp N0    &kp MINUS
@@ -69,7 +69,7 @@
         };
 
         keypad {
-            display-name = "kp";
+            display-name = "Kp";
             bindings = <
 &kp EQUAL       &kp N1     &kp N2    &kp N3     &kp N4       &kp N5  &none                                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp MINUS
 &kp TAB         &kp Q      &kp W     &kp E      &kp R        &kp T   &kp PRINTSCREEN                                                         &trans     &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp BSLH
