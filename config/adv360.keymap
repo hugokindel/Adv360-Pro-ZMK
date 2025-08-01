@@ -35,8 +35,8 @@
             >;
         };
 
-        keypad {
-            display-name = "Kp";
+        navigation {
+            display-name = "Nav";
             bindings = <
 &kp EQUAL       &kp N1     &kp N2    &kp N3     &kp N4     &kp N5  &trans                                                         &mo 3      &kp N6    &kp N7     &kp N8     &kp N9     &kp N0    &kp MINUS
 &kp TAB         &kp Q      &kp W     &kp LPAR   &kp RPAR   &kp T   &kp PRINTSCREEN                                                &none      &kp Y     &kp PG_DN  &kp UP     &kp PG_UP  &kp P     &kp BSLH
@@ -68,8 +68,8 @@
             >;
         };
 
-        layer_4 {
-            display-name = "Base";
+        keypad {
+            display-name = "kp";
             bindings = <
 &kp EQUAL       &kp N1     &kp N2    &kp N3     &kp N4       &kp N5  &none                                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp MINUS
 &kp TAB         &kp Q      &kp W     &kp E      &kp R        &kp T   &kp PRINTSCREEN                                                         &trans     &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp BSLH
